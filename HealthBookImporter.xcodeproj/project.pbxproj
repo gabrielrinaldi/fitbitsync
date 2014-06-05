@@ -1,827 +1,482 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>24ABDECB49CD4152A201B52F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-HealthBookImporter.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>66036D5021E4428D84D54293</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HealthBookImporter.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-HealthBookImporter.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>762B73D9E6F549B2A28FEF14</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-HealthBookImporter-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7B8F2F33B3184161A2293C9B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9B6651D2B574418CB6C257EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24ABDECB49CD4152A201B52F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B5CF20F3D2794A96A5F7D44C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>24ABDECB49CD4152A201B52F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC3E1940177100EED718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0E8CC491940177100EED718</string>
-				<string>C0E8CC5A1940177200EED718</string>
-				<string>C0E8CC481940177100EED718</string>
-				<string>66036D5021E4428D84D54293</string>
-				<string>B5CF20F3D2794A96A5F7D44C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC3F1940177100EED718</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0600</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Gabriel Rinaldi</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>C0E8CC461940177100EED718</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-					</dict>
-					<key>C0E8CC561940177200EED718</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.0</string>
-						<key>TestTargetID</key>
-						<string>C0E8CC461940177100EED718</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>C0E8CC421940177100EED718</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>C0E8CC3E1940177100EED718</string>
-			<key>productRefGroup</key>
-			<string>C0E8CC481940177100EED718</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C0E8CC461940177100EED718</string>
-				<string>C0E8CC561940177200EED718</string>
-			</array>
-		</dict>
-		<key>C0E8CC421940177100EED718</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C0E8CC5F1940177200EED718</string>
-				<string>C0E8CC601940177200EED718</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C0E8CC431940177100EED718</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C0E8CC501940177100EED718</string>
-				<string>C0E8CC4D1940177100EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0E8CC441940177100EED718</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B6651D2B574418CB6C257EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0E8CC451940177100EED718</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C0E8CC521940177100EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0E8CC461940177100EED718</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C0E8CC611940177200EED718</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7B8F2F33B3184161A2293C9B</string>
-				<string>C0E8CC431940177100EED718</string>
-				<string>C0E8CC441940177100EED718</string>
-				<string>C0E8CC451940177100EED718</string>
-				<string>762B73D9E6F549B2A28FEF14</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HealthBookImporter</string>
-			<key>productName</key>
-			<string>HealthBookImporter</string>
-			<key>productReference</key>
-			<string>C0E8CC471940177100EED718</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>C0E8CC471940177100EED718</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HealthBookImporter.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C0E8CC481940177100EED718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0E8CC471940177100EED718</string>
-				<string>C0E8CC571940177200EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC491940177100EED718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0E8CC4E1940177100EED718</string>
-				<string>C0E8CC4F1940177100EED718</string>
-				<string>C0E8CC511940177100EED718</string>
-				<string>C0E8CC4A1940177100EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HealthBookImporter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC4A1940177100EED718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0E8CC4B1940177100EED718</string>
-				<string>C0E8CC4C1940177100EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC4B1940177100EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC4C1940177100EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC4D1940177100EED718</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0E8CC4C1940177100EED718</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0E8CC4E1940177100EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC4F1940177100EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC501940177100EED718</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0E8CC4F1940177100EED718</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0E8CC511940177100EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC521940177100EED718</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0E8CC511940177100EED718</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0E8CC531940177200EED718</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C0E8CC5E1940177200EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0E8CC541940177200EED718</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0E8CC551940177200EED718</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0E8CC561940177200EED718</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C0E8CC641940177200EED718</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C0E8CC531940177200EED718</string>
-				<string>C0E8CC541940177200EED718</string>
-				<string>C0E8CC551940177200EED718</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C0E8CC591940177200EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HealthBookImporterTests</string>
-			<key>productName</key>
-			<string>HealthBookImporterTests</string>
-			<key>productReference</key>
-			<string>C0E8CC571940177200EED718</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>C0E8CC571940177200EED718</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HealthBookImporterTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C0E8CC581940177200EED718</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C0E8CC3F1940177100EED718</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C0E8CC461940177100EED718</string>
-			<key>remoteInfo</key>
-			<string>HealthBookImporter</string>
-		</dict>
-		<key>C0E8CC591940177200EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>C0E8CC461940177100EED718</string>
-			<key>targetProxy</key>
-			<string>C0E8CC581940177200EED718</string>
-		</dict>
-		<key>C0E8CC5A1940177200EED718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0E8CC5D1940177200EED718</string>
-				<string>C0E8CC5B1940177200EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HealthBookImporterTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC5B1940177200EED718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0E8CC5C1940177200EED718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC5C1940177200EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC5D1940177200EED718</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HealthBookImporterTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0E8CC5E1940177200EED718</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0E8CC5D1940177200EED718</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0E8CC5F1940177200EED718</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C0E8CC601940177200EED718</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C0E8CC611940177200EED718</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C0E8CC621940177200EED718</string>
-				<string>C0E8CC631940177200EED718</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C0E8CC621940177200EED718</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>66036D5021E4428D84D54293</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HealthBookImporter/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C0E8CC631940177200EED718</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>66036D5021E4428D84D54293</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HealthBookImporter/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C0E8CC641940177200EED718</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C0E8CC651940177200EED718</string>
-				<string>C0E8CC661940177200EED718</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C0E8CC651940177200EED718</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HealthBookImporter.app/HealthBookImporter</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>HealthBookImporterTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C0E8CC661940177200EED718</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HealthBookImporter.app/HealthBookImporter</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>HealthBookImporterTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>METAL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>C0E8CC3F1940177100EED718</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6651D2B574418CB6C257EE /* libPods-HealthBookImporter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ABDECB49CD4152A201B52F /* libPods-HealthBookImporter.a */; };
+		C081193A19401D2600D67B87 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C081193819401D2600D67B87 /* LoginViewController.m */; };
+		C081193B19401D2600D67B87 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C081193919401D2600D67B87 /* LoginViewController.xib */; };
+		C0E8CC4D1940177100EED718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC4C1940177100EED718 /* main.m */; };
+		C0E8CC501940177100EED718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC4F1940177100EED718 /* AppDelegate.m */; };
+		C0E8CC521940177100EED718 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E8CC511940177100EED718 /* Images.xcassets */; };
+		C0E8CC5E1940177200EED718 /* HealthBookImporterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC5D1940177200EED718 /* HealthBookImporterTests.m */; };
+		C0E8CC6C19401AAF00EED718 /* FitBitClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC6B19401AAF00EED718 /* FitBitClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E8CC581940177200EED718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E8CC3F1940177100EED718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E8CC461940177100EED718;
+			remoteInfo = HealthBookImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24ABDECB49CD4152A201B52F /* libPods-HealthBookImporter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthBookImporter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66036D5021E4428D84D54293 /* Pods-HealthBookImporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthBookImporter.xcconfig"; path = "Pods/Pods-HealthBookImporter.xcconfig"; sourceTree = "<group>"; };
+		C081193719401D2600D67B87 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C081193819401D2600D67B87 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C081193919401D2600D67B87 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C0E8CC471940177100EED718 /* HealthBookImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthBookImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E8CC4B1940177100EED718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E8CC4C1940177100EED718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0E8CC4E1940177100EED718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0E8CC4F1940177100EED718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0E8CC511940177100EED718 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0E8CC571940177200EED718 /* HealthBookImporterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthBookImporterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E8CC5C1940177200EED718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E8CC5D1940177200EED718 /* HealthBookImporterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthBookImporterTests.m; sourceTree = "<group>"; };
+		C0E8CC6A19401AAF00EED718 /* FitBitClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitBitClient.h; sourceTree = "<group>"; };
+		C0E8CC6B19401AAF00EED718 /* FitBitClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitBitClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E8CC441940177100EED718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6651D2B574418CB6C257EE /* libPods-HealthBookImporter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E8CC541940177200EED718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CF20F3D2794A96A5F7D44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24ABDECB49CD4152A201B52F /* libPods-HealthBookImporter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C081193619401D0C00D67B87 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C081193719401D2600D67B87 /* LoginViewController.h */,
+				C081193819401D2600D67B87 /* LoginViewController.m */,
+				C081193919401D2600D67B87 /* LoginViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C0E8CC3E1940177100EED718 = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC491940177100EED718 /* HealthBookImporter */,
+				C0E8CC5A1940177200EED718 /* HealthBookImporterTests */,
+				C0E8CC481940177100EED718 /* Products */,
+				66036D5021E4428D84D54293 /* Pods-HealthBookImporter.xcconfig */,
+				B5CF20F3D2794A96A5F7D44C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E8CC481940177100EED718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC471940177100EED718 /* HealthBookImporter.app */,
+				C0E8CC571940177200EED718 /* HealthBookImporterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E8CC491940177100EED718 /* HealthBookImporter */ = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC4E1940177100EED718 /* AppDelegate.h */,
+				C0E8CC4F1940177100EED718 /* AppDelegate.m */,
+				C0E8CC6719401A6F00EED718 /* Classes */,
+				C0E8CC511940177100EED718 /* Images.xcassets */,
+				C0E8CC4A1940177100EED718 /* Supporting Files */,
+				C081193619401D0C00D67B87 /* View Controllers */,
+			);
+			path = HealthBookImporter;
+			sourceTree = "<group>";
+		};
+		C0E8CC4A1940177100EED718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC4B1940177100EED718 /* Info.plist */,
+				C0E8CC4C1940177100EED718 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E8CC5A1940177200EED718 /* HealthBookImporterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC5D1940177200EED718 /* HealthBookImporterTests.m */,
+				C0E8CC5B1940177200EED718 /* Supporting Files */,
+			);
+			path = HealthBookImporterTests;
+			sourceTree = "<group>";
+		};
+		C0E8CC5B1940177200EED718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC5C1940177200EED718 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E8CC6719401A6F00EED718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0E8CC6A19401AAF00EED718 /* FitBitClient.h */,
+				C0E8CC6B19401AAF00EED718 /* FitBitClient.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E8CC461940177100EED718 /* HealthBookImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E8CC611940177200EED718 /* Build configuration list for PBXNativeTarget "HealthBookImporter" */;
+			buildPhases = (
+				7B8F2F33B3184161A2293C9B /* Check Pods Manifest.lock */,
+				C0E8CC431940177100EED718 /* Sources */,
+				C0E8CC441940177100EED718 /* Frameworks */,
+				C0E8CC451940177100EED718 /* Resources */,
+				762B73D9E6F549B2A28FEF14 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthBookImporter;
+			productName = HealthBookImporter;
+			productReference = C0E8CC471940177100EED718 /* HealthBookImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E8CC561940177200EED718 /* HealthBookImporterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E8CC641940177200EED718 /* Build configuration list for PBXNativeTarget "HealthBookImporterTests" */;
+			buildPhases = (
+				C0E8CC531940177200EED718 /* Sources */,
+				C0E8CC541940177200EED718 /* Frameworks */,
+				C0E8CC551940177200EED718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E8CC591940177200EED718 /* PBXTargetDependency */,
+			);
+			name = HealthBookImporterTests;
+			productName = HealthBookImporterTests;
+			productReference = C0E8CC571940177200EED718 /* HealthBookImporterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E8CC3F1940177100EED718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gabriel Rinaldi";
+				TargetAttributes = {
+					C0E8CC461940177100EED718 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C0E8CC561940177200EED718 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C0E8CC461940177100EED718;
+					};
+				};
+			};
+			buildConfigurationList = C0E8CC421940177100EED718 /* Build configuration list for PBXProject "HealthBookImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0E8CC3E1940177100EED718;
+			productRefGroup = C0E8CC481940177100EED718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E8CC461940177100EED718 /* HealthBookImporter */,
+				C0E8CC561940177200EED718 /* HealthBookImporterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E8CC451940177100EED718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C081193B19401D2600D67B87 /* LoginViewController.xib in Resources */,
+				C0E8CC521940177100EED718 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E8CC551940177200EED718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		762B73D9E6F549B2A28FEF14 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HealthBookImporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8F2F33B3184161A2293C9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E8CC431940177100EED718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C081193A19401D2600D67B87 /* LoginViewController.m in Sources */,
+				C0E8CC6C19401AAF00EED718 /* FitBitClient.m in Sources */,
+				C0E8CC501940177100EED718 /* AppDelegate.m in Sources */,
+				C0E8CC4D1940177100EED718 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E8CC531940177200EED718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E8CC5E1940177200EED718 /* HealthBookImporterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E8CC591940177200EED718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E8CC461940177100EED718 /* HealthBookImporter */;
+			targetProxy = C0E8CC581940177200EED718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0E8CC5F1940177200EED718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0E8CC601940177200EED718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E8CC621940177200EED718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66036D5021E4428D84D54293 /* Pods-HealthBookImporter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HealthBookImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0E8CC631940177200EED718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66036D5021E4428D84D54293 /* Pods-HealthBookImporter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HealthBookImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0E8CC651940177200EED718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HealthBookImporter.app/HealthBookImporter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HealthBookImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C0E8CC661940177200EED718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HealthBookImporter.app/HealthBookImporter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HealthBookImporterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E8CC421940177100EED718 /* Build configuration list for PBXProject "HealthBookImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E8CC5F1940177200EED718 /* Debug */,
+				C0E8CC601940177200EED718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E8CC611940177200EED718 /* Build configuration list for PBXNativeTarget "HealthBookImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E8CC621940177200EED718 /* Debug */,
+				C0E8CC631940177200EED718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E8CC641940177200EED718 /* Build configuration list for PBXNativeTarget "HealthBookImporterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E8CC651940177200EED718 /* Debug */,
+				C0E8CC661940177200EED718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E8CC3F1940177100EED718 /* Project object */;
+}
