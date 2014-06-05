@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#pragma mark AppDelegate
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-
