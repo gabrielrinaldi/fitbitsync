@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B6651D2B574418CB6C257EE /* libPods-HealthBookImporter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ABDECB49CD4152A201B52F /* libPods-HealthBookImporter.a */; };
-		C081193A19401D2600D67B87 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C081193819401D2600D67B87 /* LoginViewController.m */; };
-		C081193B19401D2600D67B87 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C081193919401D2600D67B87 /* LoginViewController.xib */; };
+		C08119421940291A00D67B87 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08119411940291A00D67B87 /* HealthKit.framework */; };
+		C08119461940296300D67B87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08119441940296300D67B87 /* HomeViewController.m */; };
+		C08119471940296300D67B87 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08119451940296300D67B87 /* HomeViewController.xib */; };
 		C0E8CC4D1940177100EED718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC4C1940177100EED718 /* main.m */; };
 		C0E8CC501940177100EED718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC4F1940177100EED718 /* AppDelegate.m */; };
 		C0E8CC521940177100EED718 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E8CC511940177100EED718 /* Images.xcassets */; };
@@ -30,9 +31,11 @@
 /* Begin PBXFileReference section */
 		24ABDECB49CD4152A201B52F /* libPods-HealthBookImporter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthBookImporter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66036D5021E4428D84D54293 /* Pods-HealthBookImporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthBookImporter.xcconfig"; path = "Pods/Pods-HealthBookImporter.xcconfig"; sourceTree = "<group>"; };
-		C081193719401D2600D67B87 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		C081193819401D2600D67B87 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		C081193919401D2600D67B87 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C08119401940291A00D67B87 /* HealthBookImporter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HealthBookImporter.entitlements; sourceTree = "<group>"; };
+		C08119411940291A00D67B87 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C08119431940296300D67B87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C08119441940296300D67B87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C08119451940296300D67B87 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		C0E8CC471940177100EED718 /* HealthBookImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthBookImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E8CC4B1940177100EED718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E8CC4C1940177100EED718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6651D2B574418CB6C257EE /* libPods-HealthBookImporter.a in Frameworks */,
+				C08119421940291A00D67B87 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +72,7 @@
 		B5CF20F3D2794A96A5F7D44C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C08119411940291A00D67B87 /* HealthKit.framework */,
 				24ABDECB49CD4152A201B52F /* libPods-HealthBookImporter.a */,
 			);
 			name = Frameworks;
@@ -76,9 +81,9 @@
 		C081193619401D0C00D67B87 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C081193719401D2600D67B87 /* LoginViewController.h */,
-				C081193819401D2600D67B87 /* LoginViewController.m */,
-				C081193919401D2600D67B87 /* LoginViewController.xib */,
+				C08119431940296300D67B87 /* HomeViewController.h */,
+				C08119441940296300D67B87 /* HomeViewController.m */,
+				C08119451940296300D67B87 /* HomeViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		C0E8CC4A1940177100EED718 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C08119401940291A00D67B87 /* HealthBookImporter.entitlements */,
 				C0E8CC4B1940177100EED718 /* Info.plist */,
 				C0E8CC4C1940177100EED718 /* main.m */,
 			);
@@ -202,6 +208,15 @@
 				TargetAttributes = {
 					C0E8CC461940177100EED718 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = Q9U23GRL6K;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					C0E8CC561940177200EED718 = {
 						CreatedOnToolsVersion = 6.0;
@@ -232,8 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C081193B19401D2600D67B87 /* LoginViewController.xib in Resources */,
 				C0E8CC521940177100EED718 /* Images.xcassets in Resources */,
+				C08119471940296300D67B87 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C081193A19401D2600D67B87 /* LoginViewController.m in Sources */,
 				C0E8CC6C19401AAF00EED718 /* FitBitClient.m in Sources */,
 				C0E8CC501940177100EED718 /* AppDelegate.m in Sources */,
+				C08119461940296300D67B87 /* HomeViewController.m in Sources */,
 				C0E8CC4D1940177100EED718 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,9 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = HealthBookImporter/HealthBookImporter.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HealthBookImporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -404,9 +423,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = HealthBookImporter/HealthBookImporter.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HealthBookImporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

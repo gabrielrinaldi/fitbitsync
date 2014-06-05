@@ -14,6 +14,7 @@
 
 + (instancetype)sharedClient;
 - (BOOL)requestForAuthentication;
+- (void)logout;
 - (void)sync;
 
 @end

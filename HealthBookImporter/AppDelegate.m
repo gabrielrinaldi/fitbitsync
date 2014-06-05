@@ -7,7 +7,7 @@
 //
 
 #import "FitBitClient.h"
-#import "LoginViewController.h"
+#import "HomeViewController.h"
 #import "AppDelegate.h"
 
 #pragma mark AppDelegate (Private)
@@ -21,8 +21,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
     self.window.rootViewController = navigationController;
 
     self.window.backgroundColor = [UIColor whiteColor];
