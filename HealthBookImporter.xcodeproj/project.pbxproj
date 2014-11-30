@@ -11,6 +11,7 @@
 		C08119421940291A00D67B87 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08119411940291A00D67B87 /* HealthKit.framework */; };
 		C08119461940296300D67B87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08119441940296300D67B87 /* HomeViewController.m */; };
 		C08119471940296300D67B87 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08119451940296300D67B87 /* HomeViewController.xib */; };
+		C0C059B0195D53E200EFF3F3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C059AF195D53E200EFF3F3 /* Crashlytics.framework */; };
 		C0E8CC4D1940177100EED718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC4C1940177100EED718 /* main.m */; };
 		C0E8CC501940177100EED718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8CC4F1940177100EED718 /* AppDelegate.m */; };
 		C0E8CC521940177100EED718 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E8CC511940177100EED718 /* Images.xcassets */; };
@@ -36,6 +37,7 @@
 		C08119431940296300D67B87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		C08119441940296300D67B87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		C08119451940296300D67B87 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C0C059AF195D53E200EFF3F3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		C0E8CC471940177100EED718 /* HealthBookImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthBookImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E8CC4B1940177100EED718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E8CC4C1940177100EED718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6651D2B574418CB6C257EE /* libPods-HealthBookImporter.a in Frameworks */,
+				C0C059B0195D53E200EFF3F3 /* Crashlytics.framework in Frameworks */,
 				C08119421940291A00D67B87 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +94,7 @@
 		C0E8CC3E1940177100EED718 = {
 			isa = PBXGroup;
 			children = (
+				C0C059AF195D53E200EFF3F3 /* Crashlytics.framework */,
 				C0E8CC491940177100EED718 /* HealthBookImporter */,
 				C0E8CC5A1940177200EED718 /* HealthBookImporterTests */,
 				C0E8CC481940177100EED718 /* Products */,
@@ -169,6 +173,7 @@
 				C0E8CC441940177100EED718 /* Frameworks */,
 				C0E8CC451940177100EED718 /* Resources */,
 				762B73D9E6F549B2A28FEF14 /* Copy Pods Resources */,
+				C0C059AE195D510900EFF3F3 /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -208,7 +213,7 @@
 				TargetAttributes = {
 					C0E8CC461940177100EED718 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = Q9U23GRL6K;
+						DevelopmentTeam = DCFUXK7B3L;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -291,6 +296,20 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		C0C059AE195D510900EFF3F3 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 131c48cd3aa4014211c76edd0d36ed0f0b40e5c1 886d69a43bab48a73859860f5af0d39c5e93f4f63be05acaa45d6c2b12d5e266";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -410,10 +429,14 @@
 				CODE_SIGN_ENTITLEMENTS = HealthBookImporter/HealthBookImporter.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HealthBookImporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "F74F69F6-49EB-4B89-98FC-D158B6065D9F";
 			};
 			name = Debug;
 		};
@@ -426,10 +449,14 @@
 				CODE_SIGN_ENTITLEMENTS = HealthBookImporter/HealthBookImporter.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HealthBookImporter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "709980E2-A827-4A45-B722-B9D8CF798D1E";
 			};
 			name = Release;
 		};

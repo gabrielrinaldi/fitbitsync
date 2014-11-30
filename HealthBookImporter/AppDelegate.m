@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Gabriel Rinaldi. All rights reserved.
 //
 
+#import <Crashlytics/Crashlytics.h>
 #import "FitBitClient.h"
 #import "HomeViewController.h"
 #import "AppDelegate.h"
@@ -19,6 +20,8 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Crashlytics startWithAPIKey:@"131c48cd3aa4014211c76edd0d36ed0f0b40e5c1"];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
